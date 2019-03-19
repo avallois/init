@@ -1,0 +1,8 @@
+users="`cat /etc/passwd | grep "/home" | cut -d":" -f1 | uniq | tr '\n' ' '`";
+usersarray=( $users );
+for user in ${usersarray[@]}
+do
+  echo "USER: $user"
+  last $user | grep -v "wtmp"
+done
+#affiche les derniers log des users reels

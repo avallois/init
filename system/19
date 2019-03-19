@@ -1,0 +1,43 @@
+/etc/rc0.d:
+K01bind9       K01ipmievd	K01lvm2-lvmpolld   K01networking
+K01hddtemp     K01irqbalance	K01mdadm	   K01noderig
+K01hwclock.sh  K01lvm2-lvmetad	K01mdadm-waitidle  K01rsyslog
+
+/etc/rc1.d:
+K01bind9    K01ipmievd	   K01lvm2-lvmetad   K01mdadm	 K01rsyslog
+K01hddtemp  K01irqbalance  K01lvm2-lvmpolld  K01noderig  K01smartmontools
+
+/etc/rc2.d:
+S01bind9	     S01hddtemp       S01lvm2-lvmpolld	S01rsyslog
+S01console-setup.sh  S01ipmievd       S01mdadm		S01smartmontools
+S01cron		     S01irqbalance    S01noderig	S01ssh
+S01dbus		     S01lvm2-lvmetad  S01rsync		S01sysstat
+
+/etc/rc3.d:
+S01bind9	     S01hddtemp       S01lvm2-lvmpolld	S01rsyslog
+S01console-setup.sh  S01ipmievd       S01mdadm		S01smartmontools
+S01cron		     S01irqbalance    S01noderig	S01ssh
+S01dbus		     S01lvm2-lvmetad  S01rsync		S01sysstat
+
+/etc/rc4.d:
+S01bind9	     S01hddtemp       S01lvm2-lvmpolld	S01rsyslog
+S01console-setup.sh  S01ipmievd       S01mdadm		S01smartmontools
+S01cron		     S01irqbalance    S01noderig	S01ssh
+S01dbus		     S01lvm2-lvmetad  S01rsync		S01sysstat
+
+/etc/rc5.d:
+S01bind9	     S01hddtemp       S01lvm2-lvmpolld	S01rsyslog
+S01console-setup.sh  S01ipmievd       S01mdadm		S01smartmontools
+S01cron		     S01irqbalance    S01noderig	S01ssh
+S01dbus		     S01lvm2-lvmetad  S01rsync		S01sysstat
+
+/etc/rc6.d:
+K01bind9       K01ipmievd	K01lvm2-lvmpolld   K01networking
+K01hddtemp     K01irqbalance	K01mdadm	   K01noderig
+K01hwclock.sh  K01lvm2-lvmetad	K01mdadm-waitidle  K01rsyslog
+
+/etc/rcS.d:
+S01hwclock.sh	      S01kmod  S01networking  S01screen-cleanup
+S01keyboard-setup.sh  S01lvm2  S01procps      S01udev
+
+Ce type de service s'appelle un daemon

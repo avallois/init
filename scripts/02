@@ -1,0 +1,6 @@
+for user in $@
+do
+  pkill -9 -u $user
+  userdel $user
+  echo "le user $user est supprime"
+done

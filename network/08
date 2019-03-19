@@ -1,0 +1,3 @@
+Quand on fait un "dig slash16.org" on interroge slash16.org on a acces aux IP des DNS de slash16.org
+et dans AUTHORITY section on peut voir dans les noms de domaine des DNS "awsdns" soit amazon web service dns
+et on peut donc conclure que AmazonWebService est l'hebergeur

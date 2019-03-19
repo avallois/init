@@ -1,0 +1,2 @@
+Pour rendre cela permanent il faut modifier le nom de la maniere suivante:
+echo "newname" > /etc/hostname
