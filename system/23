@@ -1,2 +1,2 @@
 En graphique tu rentres ton login et ton mot de passe lors du choix d'utilisateur
-En ssh: ssh newuser@ip
+En ssh: ssh newuser@ip pour se connecter pour cela il faut creer une cle prive et rentre la cle publique dans les cles autorisee ainsi on peu se connecter via ssh

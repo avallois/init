@@ -1,6 +1,6 @@
-for user in $@
+array=$(pgrep -u $1)
+for pid in $array
 do
-  pkill -9 -u $user
-  userdel $user
-  echo "le user $user est supprime"
+ sudo kill -9 $pid
 done
+sudo userdel -fr $1
